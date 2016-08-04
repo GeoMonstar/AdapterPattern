@@ -15,6 +15,11 @@
 		850EAB561D51DDF400FF816E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 850EAB541D51DDF400FF816E /* LaunchScreen.storyboard */; };
 		850EAB611D51DDF400FF816E /* Adapter_patternTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 850EAB601D51DDF400FF816E /* Adapter_patternTests.m */; };
 		850EAB6C1D51DDF400FF816E /* Adapter_patternUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 850EAB6B1D51DDF400FF816E /* Adapter_patternUITests.m */; };
+		850EAB7B1D51E40A00FF816E /* BusinessCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 850EAB7A1D51E40A00FF816E /* BusinessCardView.m */; };
+		850EAB7E1D51E6B200FF816E /* BusinessCardAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 850EAB7D1D51E6B200FF816E /* BusinessCardAdapter.m */; };
+		850EAB811D51E73D00FF816E /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 850EAB801D51E73D00FF816E /* DataModel.m */; };
+		850EAB841D51E81200FF816E /* ModelAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 850EAB831D51E81200FF816E /* ModelAdapter.m */; };
+		85631D171D52E4A500546FB3 /* NewDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 85631D161D52E4A500546FB3 /* NewDataModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,16 @@
 		850EAB671D51DDF400FF816E /* Adapter patternUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Adapter patternUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		850EAB6B1D51DDF400FF816E /* Adapter_patternUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Adapter_patternUITests.m; sourceTree = "<group>"; };
 		850EAB6D1D51DDF400FF816E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		850EAB791D51E40A00FF816E /* BusinessCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessCardView.h; sourceTree = "<group>"; };
+		850EAB7A1D51E40A00FF816E /* BusinessCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessCardView.m; sourceTree = "<group>"; };
+		850EAB7C1D51E6B200FF816E /* BusinessCardAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessCardAdapter.h; sourceTree = "<group>"; };
+		850EAB7D1D51E6B200FF816E /* BusinessCardAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessCardAdapter.m; sourceTree = "<group>"; };
+		850EAB7F1D51E73D00FF816E /* DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModel.h; sourceTree = "<group>"; };
+		850EAB801D51E73D00FF816E /* DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataModel.m; sourceTree = "<group>"; };
+		850EAB821D51E81200FF816E /* ModelAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelAdapter.h; sourceTree = "<group>"; };
+		850EAB831D51E81200FF816E /* ModelAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelAdapter.m; sourceTree = "<group>"; };
+		85631D151D52E4A500546FB3 /* NewDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewDataModel.h; sourceTree = "<group>"; };
+		85631D161D52E4A500546FB3 /* NewDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewDataModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +118,9 @@
 			children = (
 				850EAB491D51DDF400FF816E /* AppDelegate.h */,
 				850EAB4A1D51DDF400FF816E /* AppDelegate.m */,
+				85631D141D52E44F00546FB3 /* View */,
+				85631D131D52E42C00546FB3 /* Adapter */,
+				85631D121D52E42300546FB3 /* Models */,
 				850EAB4C1D51DDF400FF816E /* ViewController.h */,
 				850EAB4D1D51DDF400FF816E /* ViewController.m */,
 				850EAB4F1D51DDF400FF816E /* Main.storyboard */,
@@ -138,6 +156,37 @@
 				850EAB6D1D51DDF400FF816E /* Info.plist */,
 			);
 			path = "Adapter patternUITests";
+			sourceTree = "<group>";
+		};
+		85631D121D52E42300546FB3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				850EAB7F1D51E73D00FF816E /* DataModel.h */,
+				850EAB801D51E73D00FF816E /* DataModel.m */,
+				85631D151D52E4A500546FB3 /* NewDataModel.h */,
+				85631D161D52E4A500546FB3 /* NewDataModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		85631D131D52E42C00546FB3 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				850EAB7C1D51E6B200FF816E /* BusinessCardAdapter.h */,
+				850EAB7D1D51E6B200FF816E /* BusinessCardAdapter.m */,
+				850EAB821D51E81200FF816E /* ModelAdapter.h */,
+				850EAB831D51E81200FF816E /* ModelAdapter.m */,
+			);
+			name = Adapter;
+			sourceTree = "<group>";
+		};
+		85631D141D52E44F00546FB3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				850EAB791D51E40A00FF816E /* BusinessCardView.h */,
+				850EAB7A1D51E40A00FF816E /* BusinessCardView.m */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,7 +321,12 @@
 			files = (
 				850EAB4E1D51DDF400FF816E /* ViewController.m in Sources */,
 				850EAB4B1D51DDF400FF816E /* AppDelegate.m in Sources */,
+				850EAB841D51E81200FF816E /* ModelAdapter.m in Sources */,
+				850EAB7E1D51E6B200FF816E /* BusinessCardAdapter.m in Sources */,
+				850EAB7B1D51E40A00FF816E /* BusinessCardView.m in Sources */,
 				850EAB481D51DDF400FF816E /* main.m in Sources */,
+				85631D171D52E4A500546FB3 /* NewDataModel.m in Sources */,
+				850EAB811D51E73D00FF816E /* DataModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +552,7 @@
 				850EAB721D51DDF400FF816E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		850EAB731D51DDF400FF816E /* Build configuration list for PBXNativeTarget "Adapter patternTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +561,7 @@
 				850EAB751D51DDF400FF816E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		850EAB761D51DDF400FF816E /* Build configuration list for PBXNativeTarget "Adapter patternUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +570,7 @@
 				850EAB781D51DDF400FF816E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
